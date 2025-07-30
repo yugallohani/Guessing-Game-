@@ -50,5 +50,3 @@ This project is deployed on [Render](https://render.com). The build process uses
    # Then open http://localhost:8080 in your browser
    ```
 
-## License
-MIT
