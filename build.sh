@@ -3,10 +3,9 @@
 set -e
 
 # --- This is the fix ---
-# Ensure we are in the root of the repository where Cargo.toml is located
-# Render clones the repo into /opt/render/project/src
-# We need to go up one level to the project root
-cd .. 
+# Change directory into the folder containing the Rust project
+echo "Changing to wasm-guessing-game directory..."
+cd wasm-guessing-game
 
 # Install wasm-pack
 echo "Installing wasm-pack..."
